@@ -1,0 +1,7 @@
+# IGNORED FILES IN REPOSITORY and DEPLOYMENT
+
+
+
+node_modules/*
+.env
+.prettierrc
