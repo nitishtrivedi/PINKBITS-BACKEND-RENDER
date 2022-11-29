@@ -131,8 +131,8 @@ router.post("/create-checkout-session", async (req, res) => {
     payment_method_types: ["card"],
     line_items: lineItems,
     mode: "payment",
-    success_url: "https://pinkbits.onrender.com/thank-you", //Change this to http://localhost:1000/thank-you when running on localhost
-    cancel_url: "https://pinkbits.onrender.com/failure", //Change this to http://localhost:1000/failure when running on localhost
+    success_url: "https://pinkbits.web.app/thank-you", //Change this to http://localhost:1000/thank-you when running on localhost
+    cancel_url: "https://pinkbits.web.app/failure", //Change this to http://localhost:1000/failure when running on localhost
   });
   res.json({ id: session.id });
 });
